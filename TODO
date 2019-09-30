@@ -1,0 +1,15 @@
+#rainbow
+# TODO: md5sum needs OSX compat
+# TODO: try to use global GLYPHS[n]
+# TODO: simplify - bunch of fx not needed here
+# TODO: split up generator functions
+# TODO: make HSID file harder to delete (deleting may cause issues)
+# TODO: change HSID to note how it was generated (by)
+# TODO: consider util to change machine-id for vms (/bin/systemd-machine-id-setup)
+# TODO: introduce friendly machine name
+# NOTE: also /var/lib/dbus/machine-id also in Debian ( dbus-uuidgen --ensure=/etc/machine-id )
+# NOTE: changing machine-id may require immediate reboot
+# NOTE: alternative: uuidgen -or- mktemp -u XXXXXXXXXXXXXXXX
+# UPDATE: md5cmd and uuidgen for MACOSX support
+# UPDATE: add OSX support ioreg call
+# TODO: enable random mode independent of type
